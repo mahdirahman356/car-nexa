@@ -8,6 +8,7 @@ import './index.css'
 import MainRoute from './MainRoute/MainRoute';
 import Home from './Components/Home';
 import Login from './Components/Login';
+import SignUp from './Components/SignUp';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element:<Login></Login>
+      },
+      {
+        path:"/signup",
+        element:<SignUp></SignUp>
       }
     ]
   },
